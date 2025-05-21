@@ -8,8 +8,6 @@ declare module "@remix-run/node" {
   }
 }
 
-//test
-
 export default defineConfig({
   plugins: [
     remix({
@@ -24,4 +22,3 @@ export default defineConfig({
     tsconfigPaths(),
   ],
 });
-// test
