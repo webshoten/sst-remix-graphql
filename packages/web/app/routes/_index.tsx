@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import { gql, useQuery } from "urql";
-import { Employee } from "../graphql/schema";
+import type { Employee } from "../graphql/schema";
 
 export const meta: MetaFunction = () => {
   return [
